@@ -90,7 +90,7 @@ export default {
   position: relative;
 
   &.selected {
-    background: #e0a000;
+    background: #e09000;
   }
 
   &-caption {
