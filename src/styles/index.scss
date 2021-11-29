@@ -1,16 +1,4 @@
-﻿//@use "sass:map";
-//@import "./theme/fc6-simple.scss";
-
-//@import "header.scss";
-//@import "dropdown.scss";
-//@import "list.scss";
-//@import "parcel-01.scss";
-//@import "item-simple.scss";
-//@import "item-detailed.scss";
-//@import "item-card.scss";
-//@import "spinner.scss";
-
-* {
+﻿* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -35,64 +23,39 @@ li {
 }
 
 html {
-  height: 100%;
+  //height: 100%;
 }
 
 body {
   font: 16px verdana;
-  //color: map.get($body, fc);
-  //background: map.get($body, bg);
-  color: #e0e0e0;
-  background: #455A64;
-  height: 100%;
-  //padding-top: 96px;
+  color: map-get($body, fc);
+  background: map-get($body, bg);
 }
 
+/*
 .page {
-  //background: #78909C;
   display: flex;
   max-width: 1280px;
-  min-height: 100%;
   margin: 0 auto;
   padding: .5rem;
 }
+*/
 
+/*
 .shipments {
-  //background: #546E7A;
-  //border: 1px solid #808080;
-  //margin-right: .5rem;
   width: 100%;
   padding: 1rem;
 }
+*/
 
 
+/*
 aside {
   background: #455A64;
-  //border: 1px solid #808080;
   display: none;
   width: 400px;
   margin: 0 0 0 auto;
   padding: .5rem;
-}
-
-/*
-.feature-list {
-  li {
-    font-size: 1.25rem;
-    color: $fc-secondary;
-    text-shadow: 1px 2px #00000080;
-    letter-spacing: 1px;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 0 .75rem;
-  }
-}
-
-.list-wrapper {
-  width: 100%;
-  padding-bottom: 2rem;
 }
 */
 

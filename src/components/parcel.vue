@@ -80,9 +80,8 @@ export default {
 
 <style lang="scss" scoped>
 .parcel {
-  color: #303030;
-  background: #f0f0f0;
-  border-bottom: 1px solid #6080a0;
+  color: map-get($parcel, fc);
+  background: map-get($parcel, bg);
   border-radius: 6px;
   box-shadow: 0 4px 8px #00000060;
   margin: 0 0 2rem;
@@ -95,11 +94,13 @@ export default {
   }
 
   &-caption {
+    $bg-header: map-get($parcel-header, bg);
+
     font-size: 1.25rem;
-    color: #e0e0e0;
-    background: #406080;
-    background: linear-gradient(to bottom, #6080a0, #406080);
-    border-bottom: 2px solid #808080;
+    color: map-get($parcel-header, fc);
+    background: $bg-header;
+    background: linear-gradient(to bottom, lighten($bg-header, 12%), darken($bg-header, 5%));
+    border-bottom: 2px solid $fc-middle;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,7 +133,7 @@ export default {
   }
 
   &-body {
-    background: #e0e0e0;
+    background: map-get($parcel-body, bg);
     padding: .75rem 0;
 
     table {
@@ -148,7 +149,7 @@ export default {
 
         th {
           font-weight: bold;
-          color: #406080;
+          color: $fc-title;
         }
 
         td {
@@ -163,15 +164,12 @@ export default {
   }
 
   &-footer {
-    background: #f0f0f0;
+    font-size: 1.75rem;
+    color: map-get($parcel-footer, fc);
+    background: map-get($parcel-footer, bg);
     display: flex;
     justify-content: space-between;
     padding: .75rem 1rem;
-
-    .price {
-      font-size: 1.75rem;
-      color: #000;
-    }
   }
 }
 </style>
