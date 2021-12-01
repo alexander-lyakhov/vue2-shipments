@@ -1,7 +1,7 @@
 ﻿<template>
-  <div class="parcel" :class="{selected: isSelected}">
+  <div class="parcel" :class="{selected: isSelected}" @click.stop="select">
     <div class="parcel-item">
-      <div class="parcel-caption" @click="select">
+      <div class="parcel-caption">
         <span class="title">Vase</span>
         <span class="actions">
           <a class="actions-btn actions-btn-edit" href="#">
@@ -91,6 +91,7 @@ export default {
   padding: 5px;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 
   &.selected {
     background: #e09000;
@@ -112,7 +113,6 @@ export default {
     letter-spacing: 1px;
     text-shadow: 1px 1px 0px #000;
     padding: .5rem .5rem .5rem 1rem;
-    cursor: pointer;
 
     .actions {
       &-btn {

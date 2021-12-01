@@ -2,7 +2,7 @@
   <div class="page">
     <shipments v-slot="{select, selectedParcel}">
       <parcel
-        v-for="(item, index) in 5"
+        v-for="(item, index) in 2"
         :key="index"
         :selectedParcel="selectedParcel"
         @select-parcel="select($event)"
@@ -27,7 +27,6 @@
 
 <script>
 
-import './styles/index.css'
 //import list from './components/list.vue'
 //import listItemSimple from './components/list-item-simple.vue'
 import shipments from './components/shipments.vue'
