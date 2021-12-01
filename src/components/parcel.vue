@@ -65,14 +65,17 @@ export default {
 
   computed: {
     isSelected() {
-      return this.selectedParcel === this.$el
+      if (this.selectedParcel) {
+        return this.selectedParcel?.$el === this.$el
+      }
+      return false
     }
   },
 
   methods: {
     select() {
       console.log('select', this.$el)
-      this.$emit('select-parcel', this.$el);
+      this.$emit('select-parcel', this);
     }
   }
 }
