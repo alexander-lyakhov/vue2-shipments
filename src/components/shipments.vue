@@ -1,6 +1,6 @@
 ﻿<template>
   <div class="shipments">
-    <slot v-bind="{selectParcel, selectedParcel}"></slot>
+    <slot v-bind="{select, selectedParcel}"></slot>
   </div>
 </template>
 
@@ -15,10 +15,10 @@ export default {
   },
 
   methods: {
-    selectParcel(el) {
+    select(el) {
       console.log('selectedParcel', el)
       this.selectedParcel = el;
-    }
+    },
   }
 }
 </script>

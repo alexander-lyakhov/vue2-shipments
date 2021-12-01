@@ -1,11 +1,11 @@
 ﻿<template>
   <div class="page">
-    <shipments v-slot="{selectParcel, selectedParcel}">
+    <shipments v-slot="{select, selectedParcel}">
       <parcel
         v-for="(item, index) in 5"
         :key="index"
         :selectedParcel="selectedParcel"
-        @select-parcel="selectParcel($event)"
+        @select-parcel="select($event)"
       />
     </shipments>
     <!--
