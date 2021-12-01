@@ -1,0 +1,3122 @@
+﻿[
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "a4885020-223c-489e-8153-5bdb9baf0781",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "table",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO76BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1550
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {},
+    "id": "618c1321-1251-4031-9bda-a08dce98f639",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO62HB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Postable",
+        "description": "Postable package size",
+        "maximumLengthCm": 35,
+        "maximumWidthCm": 23,
+        "maximumDepthCm": 3,
+        "maximumVolumeCm3": 2415,
+        "maximumBeltSize": 0,
+        "packet": false,
+        "imagePath": "size_illustrations/postable.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Next Day",
+        "description": "Next day delivery service",
+        "serviceOfferCode": "NDAY",
+        "active": true,
+        "nextDay": true,
+        "imagePath": "speed_illustrations/next_day.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 326
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {},
+    "id": "6bbd68a6-dbb0-447c-a891-ebb74acc2902",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO62HB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Postable",
+        "description": "Postable package size",
+        "maximumLengthCm": 35,
+        "maximumWidthCm": 23,
+        "maximumDepthCm": 3,
+        "maximumVolumeCm3": 2415,
+        "maximumBeltSize": 0,
+        "packet": false,
+        "imagePath": "size_illustrations/postable.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Next Day",
+        "description": "Next day delivery service",
+        "serviceOfferCode": "NDAY",
+        "active": true,
+        "nextDay": true,
+        "imagePath": "speed_illustrations/next_day.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 326
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "327169a7-e9b0-4c44-8ee3-a8b24dfcc053",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "table",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO76BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1550
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "09b87512-660b-458a-93f1-4a83f7cf237d",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "guitar",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO70BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1808
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "5kg - 10kg",
+        "minimumWeightGrams": 5000,
+        "maximumWeightGrams": 10000,
+        "imagePath": "weights_illustrations/5.00_10.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 84,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 3,
+          "name": "Free Cover",
+          "displayName": "Free cover up to ?11",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?11.",
+          "info": null,
+          "addonType": "Cover",
+          "priceExcludingVatPence": 0,
+          "priceIncludingVatPence": 0,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": false
+        }
+      ]
+    },
+    "id": "11f5c574-543b-4ada-8bd6-e60ef3d92655",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "Contents",
+    "quoteStatus": "UNROUTABLE",
+    "recipientDetails":
+    {
+      "firstName": "First_name",
+      "lastName": "Last_name",
+      "postcode": "POSTCODE"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 440
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-16",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "SIGNATURE",
+        "displayName": "Signature",
+        "priceInPenceIncVat": 90,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 1100
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "5b91e18c-45ba-4d8f-bc5b-95634b707aa7",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "guitar",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO70BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1808
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "5kg - 10kg",
+        "minimumWeightGrams": 5000,
+        "maximumWeightGrams": 10000,
+        "imagePath": "weights_illustrations/5.00_10.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 84,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 3,
+          "name": "Free Cover",
+          "displayName": "Free cover up to ?11",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?11.",
+          "info": null,
+          "addonType": "Cover",
+          "priceExcludingVatPence": 0,
+          "priceIncludingVatPence": 0,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": false
+        }
+      ]
+    },
+    "id": "4c770316-d0e1-42cc-9044-d6236d6ffea2",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "Contents",
+    "quoteStatus": "UNROUTABLE",
+    "recipientDetails":
+    {
+      "firstName": "First_name",
+      "lastName": "Last_name",
+      "postcode": "POSTCODE"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 440
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "SIGNATURE",
+        "displayName": "Signature",
+        "priceInPenceIncVat": 90,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 1100
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "67383108-47d5-4374-9d83-94328ee2c280",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "SS30LN"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1405
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "f07f7de9-c30d-4bce-b7e7-4961a39f5d15",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "vase",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO45PB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1638
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "2kg - 5kg",
+        "minimumWeightGrams": 2000,
+        "maximumWeightGrams": 5000,
+        "imagePath": "weights_illustrations/2.00_5.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 86,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 3,
+          "name": "Free Cover",
+          "displayName": "Free cover up to ?11",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?11.",
+          "info": null,
+          "addonType": "Cover",
+          "priceExcludingVatPence": 0,
+          "priceIncludingVatPence": 0,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": false
+        }
+      ]
+    },
+    "id": "f4dff065-416f-4344-9db3-246b849a279e",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "Contents",
+    "quoteStatus": "UNROUTABLE",
+    "recipientDetails":
+    {
+      "firstName": "First_name",
+      "lastName": "Last_name",
+      "postcode": "POSTCODE"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 440
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "SIGNATURE",
+        "displayName": "Signature",
+        "priceInPenceIncVat": 90,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 1100
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 3,
+          "name": "Free Cover",
+          "displayName": "Free cover up to ?11",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?11.",
+          "info": null,
+          "addonType": "Cover",
+          "priceExcludingVatPence": 0,
+          "priceIncludingVatPence": 0,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": false
+        }
+      ]
+    },
+    "id": "49525a58-482d-4b23-951b-c5063b3b3caa",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "Contents",
+    "quoteStatus": "UNROUTABLE",
+    "recipientDetails":
+    {
+      "firstName": "First_name",
+      "lastName": "Last_name",
+      "postcode": "POSTCODE"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 440
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-16",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "SIGNATURE",
+        "displayName": "Signature",
+        "priceInPenceIncVat": 90,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 1100
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "34bf1051-0403-48fe-b51a-689a6dca8539",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "vase",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO45PB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1638
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "2kg - 5kg",
+        "minimumWeightGrams": 2000,
+        "maximumWeightGrams": 5000,
+        "imagePath": "weights_illustrations/2.00_5.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 86,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "7a3d7e25-d191-42dc-9525-aed1c45fd351",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "guitar",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO70BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1808
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "5kg - 10kg",
+        "minimumWeightGrams": 5000,
+        "maximumWeightGrams": 10000,
+        "imagePath": "weights_illustrations/5.00_10.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 84,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "a9a28974-31df-42c8-8add-2313c062b5e9",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "SS30LN"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1405
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "6f53d724-ea8b-4414-99a2-9faae1f140bb",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "vase",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO45PB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1638
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "2kg - 5kg",
+        "minimumWeightGrams": 2000,
+        "maximumWeightGrams": 5000,
+        "imagePath": "weights_illustrations/2.00_5.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 86,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {},
+    "id": "74bb1473-8dda-41ac-8474-37961b488536",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO62HB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Postable",
+        "description": "Postable package size",
+        "maximumLengthCm": 35,
+        "maximumWidthCm": 23,
+        "maximumDepthCm": 3,
+        "maximumVolumeCm3": 2415,
+        "maximumBeltSize": 0,
+        "packet": false,
+        "imagePath": "size_illustrations/postable.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Next Day",
+        "description": "Next day delivery service",
+        "serviceOfferCode": "NDAY",
+        "active": true,
+        "nextDay": true,
+        "imagePath": "speed_illustrations/next_day.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 326
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "2eb51791-c337-479c-88ae-2459282af140",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "guitar",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO70BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1808
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "5kg - 10kg",
+        "minimumWeightGrams": 5000,
+        "maximumWeightGrams": 10000,
+        "imagePath": "weights_illustrations/5.00_10.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 84,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "0b4c9a3e-4b59-4629-828f-8f1c1b9ba141",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "table",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO76BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1550
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 3,
+          "name": "Free Cover",
+          "displayName": "Free cover up to ?11",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?11.",
+          "info": null,
+          "addonType": "Cover",
+          "priceExcludingVatPence": 0,
+          "priceIncludingVatPence": 0,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": false
+        }
+      ]
+    },
+    "id": "65fe04b5-6f81-4532-9ed5-1a14674d0dc8",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "Contents",
+    "quoteStatus": "UNROUTABLE",
+    "recipientDetails":
+    {
+      "firstName": "First_name",
+      "lastName": "Last_name",
+      "postcode": "POSTCODE"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 440
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "SIGNATURE",
+        "displayName": "Signature",
+        "priceInPenceIncVat": 90,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 1100
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "35da6af8-21ec-45e6-9c52-26bab1a4c323",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "vase",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO45PB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1638
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "2kg - 5kg",
+        "minimumWeightGrams": 2000,
+        "maximumWeightGrams": 5000,
+        "imagePath": "weights_illustrations/2.00_5.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 86,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {},
+    "id": "f8a7c1d8-8346-480f-8e15-2f90035b354b",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO62HB"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Postable",
+        "description": "Postable package size",
+        "maximumLengthCm": 35,
+        "maximumWidthCm": 23,
+        "maximumDepthCm": 3,
+        "maximumVolumeCm3": 2415,
+        "maximumBeltSize": 0,
+        "packet": false,
+        "imagePath": "size_illustrations/postable.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Next Day",
+        "description": "Next day delivery service",
+        "serviceOfferCode": "NDAY",
+        "active": true,
+        "nextDay": true,
+        "imagePath": "speed_illustrations/next_day.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 326
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 3,
+          "name": "Free Cover",
+          "displayName": "Free cover up to ?11",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?11.",
+          "info": null,
+          "addonType": "Cover",
+          "priceExcludingVatPence": 0,
+          "priceIncludingVatPence": 0,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": false
+        }
+      ]
+    },
+    "id": "ce523ed6-d0c8-4257-89a6-47f9fa703e49",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "Contents",
+    "quoteStatus": "UNROUTABLE",
+    "recipientDetails":
+    {
+      "firstName": "First_name",
+      "lastName": "Last_name",
+      "postcode": "POSTCODE"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 440
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-16",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "SIGNATURE",
+        "displayName": "Signature",
+        "priceInPenceIncVat": 90,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 1100
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "85cbf4dc-4e1b-47ca-b96a-cad3cea6b459",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "SS30LN"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1405
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "705683ce-2021-4684-83f5-e1c218c204d8",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "table",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "CO76BZ"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1550
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "1kg - 2kg",
+        "minimumWeightGrams": 1000,
+        "maximumWeightGrams": 2000,
+        "imagePath": "weights_illustrations/1.00_2.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  },
+  {
+    "addons":
+    {
+      "selected":
+      [
+        {
+          "id": 2,
+          "name": "Signature",
+          "displayName": "Signature",
+          "description": "A signature guarantees that your parcel has been received by the recipient's household or neighbour.",
+          "info": "To comply with social distancing guidelines, couriers will not hand over a hand held device for signature, but will instead sign on the recipients behalf in their presence.",
+          "addonType": "Proof of Delivery",
+          "priceExcludingVatPence": 75,
+          "priceIncludingVatPence": 90,
+          "vatRate":
+          {
+            "code": "S",
+            "percentage": 20
+          },
+          "channel": null,
+          "restrictions":
+          [],
+          "required": true
+        },
+        {
+          "id": 1,
+          "name": "Cover",
+          "displayName": "Full cover up to ?300",
+          "description": "In the event of loss or damage of items we can compensate you up to the value of ?300.",
+          "info": "We will send your parcel that is worth ?987, however, parcel cover will only cover the first ?300.",
+          "addonType": "Cover",
+          "priceExcludingVatPence": 1020,
+          "priceIncludingVatPence": 1020,
+          "vatRate":
+          {
+            "code": "E",
+            "percentage": 0
+          },
+          "channel": null,
+          "restrictions":
+          [
+            {
+              "addonName": "Signature",
+              "restrictionType": "REQUIRED"
+            }
+          ],
+          "required": false
+        }
+      ]
+    },
+    "id": "75f41809-2bee-418a-8c7e-d9b90b93bd55",
+    "importedItemDetails":
+    {
+      "importSource": "CSV"
+    },
+    "networkEntryMethod":
+    {
+      "selected":
+      {
+        "name": "Parcelshop drop off",
+        "description": "Drop off at over 4,500 local stores",
+        "additionalInformation": "Print your label in-store or at home",
+        "imagePath": "network_entry_illustrations/parcelshop.png"
+      }
+    },
+    "parcelContents": "biscuits",
+    "quoteStatus": "ORDERABLE",
+    "recipientDetails":
+    {
+      "firstName": "John Farqhar",
+      "lastName": "Smithington",
+      "postcode": "SS30LN"
+    },
+    "sizeBand":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Standard myHermes package size",
+        "maximumLengthCm": 120,
+        "maximumWidthCm": 30,
+        "maximumDepthCm": 30,
+        "maximumVolumeCm3": 2700,
+        "maximumBeltSize": 25,
+        "packet": true,
+        "imagePath": "size_illustrations/standard.png"
+      }
+    },
+    "speedOfService":
+    {
+      "selected":
+      {
+        "name": "Standard",
+        "description": "Our standard delivery service",
+        "active": true,
+        "nextDay": false,
+        "imagePath": "speed_illustrations/standard.png"
+      }
+    },
+    "totalPrice":
+    {
+      "priceIncludingVatPence": 1405
+    },
+    "weightBand":
+    {
+      "selected":
+      {
+        "name": "Under 1kg",
+        "description": "A light package under 1kg",
+        "minimumWeightGrams": 0,
+        "maximumWeightGrams": 1000,
+        "imagePath": "weights_illustrations/0.00_1.00.png"
+      }
+    },
+    "collectionDate": "2021-10-19",
+    "upSells":
+    [
+      {
+        "name": "NEXT_DAY",
+        "displayName": "Next Day",
+        "priceInPenceIncVat": 60,
+        "applied": false,
+        "disabled": false
+      },
+      {
+        "name": "COURIER_COLLECTION",
+        "displayName": "Courier collection",
+        "priceInPenceIncVat": 72,
+        "applied": false,
+        "disabled": false
+      }
+    ],
+    "parcelValuePence": 98700
+  }
+]
