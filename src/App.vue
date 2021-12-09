@@ -2,8 +2,9 @@
   <div class="page">
     <shipments v-slot="{select, selectedParcel}">
       <parcel
-        v-for="(item, index) in 2"
-        :key="index"
+        v-for="item in shipments"
+        :item="item"
+        :key="item.id"
         :selectedParcel="selectedParcel"
         @select-parcel="select($event)"
       />
@@ -27,11 +28,11 @@
 
 <script>
 
-//import list from './components/list.vue'
-//import listItemSimple from './components/list-item-simple.vue'
 import shipments from './components/shipments.vue'
 import parcel from './components/parcel.vue'
-//import selector from './components/utils/selector.js'
+
+import { mapState } from 'vuex'
+
 
 export default {
   name: 'App',
@@ -54,6 +55,10 @@ export default {
         {value: 4, title: 'parcel drop off'}
       ],
     }
+  },
+
+  computed: {
+    ...mapState(['shipments'])
   },
 
   methods: {

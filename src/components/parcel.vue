@@ -2,7 +2,7 @@
   <div class="parcel" :class="{selected: isSelected}" @click.stop="select">
     <div class="parcel-item">
       <div class="parcel-caption">
-        <span class="title">Vase</span>
+        <span class="title">{{ item.parcelContents }}</span>
         <span class="actions">
           <a class="actions-btn actions-btn-edit" href="#">
             <svg viewBox="0 0 24 24">
@@ -19,7 +19,7 @@
       <div class="parcel-body">
         <table>
           <tr>
-            <th class="name">John Farqhar Smithington</th>
+            <th class="name">{{ fullName }}</th>
             <th class="weight">Wight</th>
             <th class="delivery">Delivery Service</th>
             <th class="cover">Cover</th>
@@ -27,7 +27,7 @@
           </tr>
           <tr>
             <td>
-              <div class="postcode">CO62HB</div>
+              <div class="postcode">{{ item.recipientDetails.postcode }}</div>
               <div class="delivery">Parcelshop drop off</div>
             </td>
             <td>1kg - 2kg</td>
@@ -40,7 +40,7 @@
       <div class="parcel-footer">
         <img src="../assets/csv.svg" />
         <span class="price">
-          ?4.40
+          {{ item.parcelValuePence / 100 }}
         </span>
       </div>
     </div>
@@ -53,6 +53,11 @@ export default {
   name: 'parcel',
 
   props: {
+    item: {
+      type: Object,
+      default: () => {}
+    },
+
     selectedParcel: {
       type: Object,
       default: null
@@ -69,6 +74,10 @@ export default {
         return this.selectedParcel?.$el === this.$el
       }
       return false
+    },
+
+    fullName() {
+      return this.item.recipientDetails?.firstName + ' ' + this.item.recipientDetails?.lastName
     }
   },
 
